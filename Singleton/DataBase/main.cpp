@@ -21,6 +21,8 @@ int main () {
   puts(DB->getName());
   std::cout << DB << '\n';
 
+  putchar('\n');
+
   delete DB;
 
   return 19;
